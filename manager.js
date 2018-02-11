@@ -14,8 +14,8 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root", //Your username
-    password: "Iforget123", //Your password
-    database: "Bamazon"
+    password: "", //Your password
+    database: "bamazon_db"
 });
 
 // Connect to Database
@@ -28,7 +28,7 @@ connection.connect(function(err) {
   prompt.start();
 
   // Display Menu
-  console.log('\nBamazon Shift Manager Menu'); // <---- Oh the irony! The sweet, sweet irony!
+  console.log('\nbamazon_db Shift Manager Menu'); // <---- Oh the irony! The sweet, sweet irony!
   console.log('----------------------------')
   console.log('Select a (numeric) option.')
   console.log('1. View Products for Sale');
