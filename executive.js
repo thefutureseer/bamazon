@@ -13,11 +13,11 @@ var padText = require('./padTable.js')
 
 // Link to mySQL Database
 var connection = mysql.createConnection({
-    host: "localhost",
+    host: "127.0.0.1",
     port: 3306,
     user: "root", //Your username
-    password: "Iforget123", //Your password
-    database: "Bamazon"
+    password: "", //Your password
+    database: "bamazon_db"
 });
 
 // Connect to Database
