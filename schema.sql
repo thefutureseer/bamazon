@@ -1,6 +1,6 @@
 
 -- Database Creation
-CREATE DATABASE Bamazon;
+CREATE DATABASE bamazon_db;
 
 USE Bamazon;
 
