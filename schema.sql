@@ -2,7 +2,7 @@
 -- Database Creation
 CREATE DATABASE bamazon_db;
 
-USE Bamazon;
+USE bamazon_db;
 
 
 -- ============================ First Table ============================
