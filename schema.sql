@@ -1,11 +1,13 @@
-
--- Database Creation
+-- create database
+DROP DATABASE IF EXISTS bamazon_db;
 CREATE DATABASE bamazon_db;
 
+-- USE Database
 USE bamazon_db;
 
 
 -- ============================ First Table ============================
+
 
 CREATE TABLE Products(
 ItemID INTEGER AUTO_INCREMENT PRIMARY KEY,
